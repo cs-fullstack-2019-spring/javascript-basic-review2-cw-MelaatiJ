@@ -8,8 +8,7 @@ var number = parseInt(prompt("put in a number"));
 
 function numberPlusFive(input)
 {
-
-    if (number === isNaN(input)
+    if (number === isNaN(input))
     {
         return "error"
     }
@@ -21,7 +20,7 @@ function numberPlusFive(input)
  }
 }
 
-var input = parseInt(promp("put in a number"));
+var input= prompt("put in a number");
 console.log(numberPlusFive(input));
 
 function awesome(string)
@@ -35,5 +34,5 @@ function awesome(string)
         return (string + "is awesome")
     }
 }
-var string = prompt("what is your favorit color");
+var string = prompt("what is your favorite color");
 console.log (awesome(string));
